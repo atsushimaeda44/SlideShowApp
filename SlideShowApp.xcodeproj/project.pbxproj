@@ -12,6 +12,11 @@
 		E105885020313F5600071160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E105884E20313F5600071160 /* Main.storyboard */; };
 		E105885220313F5700071160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E105885120313F5700071160 /* Assets.xcassets */; };
 		E105885520313F5700071160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E105885320313F5700071160 /* LaunchScreen.storyboard */; };
+		E10920F3203191A200B230EF /* IMG_0216.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E10920F2203191A200B230EF /* IMG_0216.jpg */; };
+		E10920F5203191C500B230EF /* IMG_0223.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E10920F4203191C500B230EF /* IMG_0223.jpg */; };
+		E10920F72031921400B230EF /* IMG_0245 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E10920F62031921300B230EF /* IMG_0245 2.jpg */; };
+		E10920F92031923900B230EF /* IMG_0524.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E10920F82031923900B230EF /* IMG_0524.jpg */; };
+		E10920FB20319A9700B230EF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10920FA20319A9700B230EF /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E105885120313F5700071160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E105885420313F5700071160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E105885620313F5700071160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10920F2203191A200B230EF /* IMG_0216.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0216.jpg; sourceTree = "<group>"; };
+		E10920F4203191C500B230EF /* IMG_0223.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0223.jpg; sourceTree = "<group>"; };
+		E10920F62031921300B230EF /* IMG_0245 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_0245 2.jpg"; sourceTree = "<group>"; };
+		E10920F82031923900B230EF /* IMG_0524.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0524.jpg; sourceTree = "<group>"; };
+		E10920FA20319A9700B230EF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				E105884A20313F5600071160 /* AppDelegate.swift */,
 				E105884C20313F5600071160 /* ViewController.swift */,
 				E105884E20313F5600071160 /* Main.storyboard */,
+				E10920F2203191A200B230EF /* IMG_0216.jpg */,
+				E10920F4203191C500B230EF /* IMG_0223.jpg */,
+				E10920F62031921300B230EF /* IMG_0245 2.jpg */,
+				E10920F82031923900B230EF /* IMG_0524.jpg */,
 				E105885120313F5700071160 /* Assets.xcassets */,
 				E105885320313F5700071160 /* LaunchScreen.storyboard */,
 				E105885620313F5700071160 /* Info.plist */,
+				E10920FA20319A9700B230EF /* ResultViewController.swift */,
 			);
 			path = SlideShowApp;
 			sourceTree = "<group>";
@@ -123,7 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10920F3203191A200B230EF /* IMG_0216.jpg in Resources */,
+				E10920F5203191C500B230EF /* IMG_0223.jpg in Resources */,
+				E10920F72031921400B230EF /* IMG_0245 2.jpg in Resources */,
 				E105885520313F5700071160 /* LaunchScreen.storyboard in Resources */,
+				E10920F92031923900B230EF /* IMG_0524.jpg in Resources */,
 				E105885220313F5700071160 /* Assets.xcassets in Resources */,
 				E105885020313F5600071160 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +157,7 @@
 			files = (
 				E105884D20313F5600071160 /* ViewController.swift in Sources */,
 				E105884B20313F5600071160 /* AppDelegate.swift in Sources */,
+				E10920FB20319A9700B230EF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
